@@ -24,7 +24,10 @@ El proyecto implementa y evalúa diferentes modelos de machine learning para la 
    ```
    pip install -r requirements.txt
    ```
-3. El archivo más visual e interesante es en el que realiza la comparativa:
+3. Descarga los datasets de entrenamiento preprocesados:
+   [Onedrive](https://unioviedo-my.sharepoint.com/:f:/g/personal/uo284776_uniovi_es/ErgQAaw-289HgM3ra2E1VKcBO0YnTupebQfolK2shqnXAg?e=nDuxJh)
+   
+5. El archivo más visual e interesante es en el que realiza la comparativa:
    ```
    pearson.ipynb
    ```
