@@ -18,7 +18,7 @@ El proyecto implementa y evalúa diferentes modelos de machine learning para la 
 
 1. Clona el repositorio:
    ```
-   git clone https://github.com/albertnica/TFGF
+   git clone https://github.com/albertnica/TFGF-abertnica
    ```
 2. Instala las dependencias (Python 3.13.2):
    ```
