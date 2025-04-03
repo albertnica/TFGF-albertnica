@@ -3,3 +3,6 @@ UPD 2 -> + cross validation (unused for now)
 UPD 3 -> + más capas conv
 UPD 4 -> + dropout
 UPD 5 -> + Attention
+UPD 6 -> + dropout
+UPD 7 -> + dropout en todas las capas
+UPD 8 -> 
