@@ -18,6 +18,10 @@ El proyecto implementa y evalúa diferentes modelos de machine learning para la 
 - **Dataset Builder.ipynb:** Toma todos los .fits de una carpeta y construye el dataset de entrenamiento, que consta únicamente de los datos de fluxes/wavelenghts y de Z, y los guarda en la carpeta /data de [Onedrive](https://unioviedo-my.sharepoint.com/:f:/g/personal/uo284776_uniovi_es/EiifkyAiWZ9HqcUwLZppl-4BypXdYoWkSBb3XhzWpCAhqw?e=Zl62pY). Es el archivo estándar que marca como se deben procesar los archivos antes de pasarselos a los modelos, ya que el input debe ser obligatoriamente de 5000 fluxes + 5000 wavelenghts.
 - **Pearson.ipynb:** Aquí se puede observar como se comportan todos los modelos entrenados tanto con su dataset de entrenamiento como con todo el conjunto de datos del SDSS. Incluye coeficientes de correlación lineal.
 
+- **[a](<Spectra CNN 600k 0.ipynb>):** Aquí se puede observar como se comportan todos los modelos entrenados tanto con su dataset de entrenamiento como con todo el conjunto de datos del SDSS. Incluye coeficientes de correlación lineal.
+- **Pearson.ipynb:** Aquí se puede observar como se comportan todos los modelos entrenados tanto con su dataset de entrenamiento como con todo el conjunto de datos del SDSS. Incluye coeficientes de correlación lineal.
+
+
 ## Uso
 
 1. Clona el repositorio:
