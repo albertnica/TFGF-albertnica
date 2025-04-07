@@ -17,7 +17,9 @@ El proyecto implementa y evalúa diferentes modelos de machine learning para la 
 - **Fits Selector.ipynb:** Programa clave para la obtención del dataset principal de entrenamiento, creado para seleccionar de manera un poco más uniforme los .fits sobre todo para que se aprovechen mucho más los datos con Z ≥ 4.
 - **Dataset Builder.ipynb:** Toma todos los .fits de una carpeta y construye el dataset de entrenamiento, que consta únicamente de los datos de fluxes/wavelenghts y de Z, y los guarda en la carpeta /data de [Onedrive](https://unioviedo-my.sharepoint.com/:f:/g/personal/uo284776_uniovi_es/EiifkyAiWZ9HqcUwLZppl-4BypXdYoWkSBb3XhzWpCAhqw?e=Zl62pY). Es el archivo estándar que marca como se deben procesar los archivos antes de pasarselos a los modelos, ya que el input debe ser obligatoriamente de 5000 fluxes + 5000 wavelenghts.
 - **Pearson.ipynb:** Aquí se puede observar como se comportan todos los modelos entrenados tanto con su dataset de entrenamiento como con todo el conjunto de datos del SDSS. Incluye coeficientes de correlación lineal.
-\n
+
+
+
 - **[Spectra CNN 600k 0](<Spectra CNN 600k 0.ipynb>), [Spectra CNN 1M 0](<Spectra CNN 1M 0.ipynb>):** Modelo básico sustentado en redes convolucionales.
 - **[Spectra CNN 600k 1](<Spectra CNN 600k 1.ipynb>):** Aquí se puede observar como se comportan todos los modelos entrenados tanto con su dataset de entrenamiento como con todo el conjunto de datos del SDSS. Incluye coeficientes de correlación lineal.
 - **[Spectra CNN 600k 2](<Spectra CNN 600k 2.ipynb>):** Aquí se puede observar como se comportan todos los modelos entrenados tanto con su dataset de entrenamiento como con todo el conjunto de datos del SDSS. Incluye coeficientes de correlación lineal.
