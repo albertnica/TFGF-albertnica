@@ -11,21 +11,28 @@ El proyecto implementa y evalúa diferentes modelos de machine learning para la 
 
 ## Estructura del Proyecto
 
-- **/storage:** Carpeta destinada a almacenar los modelos entrenados.
-- **/extra:** Carpeta auxiliar usada para la obtención y procesamiento de los datos y para la construcción de los datasets de entrenamiento.
-- **Fits Retriever.ipynb:** Extrae todos los archivos .fits de la base de datos de la SDSS y los descarga.
-- **Fits Selector.ipynb:** Programa clave para la obtención del dataset principal de entrenamiento, creado para seleccionar de manera un poco más uniforme los .fits sobre todo para que se aprovechen mucho más los datos con Z ≥ 4.
-- **Dataset Builder.ipynb:** Toma todos los .fits de una carpeta y construye el dataset de entrenamiento, que consta únicamente de los datos de fluxes/wavelenghts y de Z, y los guarda en la carpeta /data de [Onedrive](https://unioviedo-my.sharepoint.com/:f:/g/personal/uo284776_uniovi_es/EiifkyAiWZ9HqcUwLZppl-4BypXdYoWkSBb3XhzWpCAhqw?e=Zl62pY). Es el archivo estándar que marca como se deben procesar los archivos antes de pasarselos a los modelos, ya que el input debe ser obligatoriamente de 5000 fluxes + 5000 wavelenghts.
+- **[/storage](storage):** Carpeta destinada a almacenar los modelos entrenados.
+- **[/extra](extra):** Carpeta auxiliar usada para la obtención y procesamiento de los datos y para la construcción de los datasets de entrenamiento.
+- **[Fits Retriever](<Fits Retriever.ipynb>):** Extrae todos los archivos .fits de la base de datos de la SDSS y los descarga.
+- **[Fits Selector](<Fits Selector.ipynb>):** Programa clave para la obtención del dataset principal de entrenamiento, creado para seleccionar de manera un poco más uniforme los .fits sobre todo para que se aprovechen mucho más los datos con Z ≥ 4.
+- **[Dataset Builder](<Dataset Builder.ipynb>):** Toma todos los .fits de una carpeta y construye el dataset de entrenamiento, que consta únicamente de los datos de fluxes/wavelenghts y de Z, y los guarda en la carpeta /data de [Onedrive](https://unioviedo-my.sharepoint.com/:f:/g/personal/uo284776_uniovi_es/EiifkyAiWZ9HqcUwLZppl-4BypXdYoWkSBb3XhzWpCAhqw?e=Zl62pY). Es el archivo estándar que marca como se deben procesar los archivos antes de pasarselos a los modelos, ya que el input debe ser obligatoriamente de 5000 fluxes + 5000 wavelenghts.
 - **Pearson.ipynb:** Aquí se puede observar como se comportan todos los modelos entrenados tanto con su dataset de entrenamiento como con todo el conjunto de datos del SDSS. Incluye coeficientes de correlación lineal.
 
 <br />
 
-- **[Spectra CNN 600k 0](<Spectra CNN 600k 0.ipynb>), [Spectra CNN 1M 0](<Spectra CNN 1M 0.ipynb>):** Modelo básico sustentado en redes convolucionales.
-- **[Spectra CNN 600k 1](<Spectra CNN 600k 1.ipynb>):** Aquí se puede observar como se comportan todos los modelos entrenados tanto con su dataset de entrenamiento como con todo el conjunto de datos del SDSS. Incluye coeficientes de correlación lineal.
-- **[Spectra CNN 600k 2](<Spectra CNN 600k 2.ipynb>):** Aquí se puede observar como se comportan todos los modelos entrenados tanto con su dataset de entrenamiento como con todo el conjunto de datos del SDSS. Incluye coeficientes de correlación lineal.
-- **[Spectra CNN 600k 3](<Spectra CNN 600k 3.ipynb>):** Aquí se puede observar como se comportan todos los modelos entrenados tanto con su dataset de entrenamiento como con todo el conjunto de datos del SDSS. Incluye coeficientes de correlación lineal.
-- **[Spectra CNN 600k 4](<Spectra CNN 600k 4.ipynb>):** Aquí se puede observar como se comportan todos los modelos entrenados tanto con su dataset de entrenamiento como con todo el conjunto de datos del SDSS. Incluye coeficientes de correlación lineal.
+- **[Spectra MLP 600k 1](<Spectra MLP 600k 1.ipynb>), [Spectra MLP 1M 1](<Spectra MLP 1M 1.ipynb>):** Modelo basado en Perceptrones Multicapa.
 
+<br />
+
+- **[Spectra CNN 600k 0](<Spectra CNN 600k 0.ipynb>), [Spectra CNN 1M 0](<Spectra CNN 1M 0.ipynb>):** Modelo básico sustentado en redes convolucionales.
+- **[Spectra CNN 600k 1](<Spectra CNN 600k 1.ipynb>), [Spectra CNN 1M 1](<Spectra CNN 1M 1.ipynb>):** Se introduce el concepto de dropout en la capa lineal.
+- **[Spectra CNN 600k 2](<Spectra CNN 600k 2.ipynb>), [Spectra CNN 1M 2](<Spectra CNN 1M 2.ipynb>):** Se amplía el número de capas convolucionales.
+- **[Spectra CNN 600k 3](<Spectra CNN 600k 3.ipynb>), [Spectra CNN 1M 3](<Spectra CNN 1M 3.ipynb>):** Se introduce un módulo de atención.
+- **[Spectra CNN 600k 4](<Spectra CNN 600k 4.ipynb>), [Spectra CNN 1M 4](<Spectra CNN 1M 4.ipynb>):** Se introduce dropout en todas las capas.
+
+<br />
+
+- **[Spectra TRA 600k 1](<Spectra TRA 600k 1.ipynb>), [Spectra TRA 1M 1](<Spectra TRA 1M 1.ipynb>):** Modelo basado en Transformers.
 
 ## Uso
 
