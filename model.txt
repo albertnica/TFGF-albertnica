@@ -2,10 +2,7 @@ UPD 0 -> CNN básica
 UPD 4 -> + dropout
 UPD 1 -> + dropout y mas capas de convolucion
 UPD 5 -> + Attention
-
-UPD 6 -> + dropout
 UPD 7 -> + dropout en todas las capas
-UPD 8 -> + dropout en todas las capas + Attention
 
 
 
