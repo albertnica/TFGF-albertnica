@@ -1,8 +1,15 @@
-UPD 1 -> CNN básica varias capas con dropout
-UPD 2 -> + cross validation (unused for now)
-UPD 3 -> + más capas conv
+UPD 0 -> CNN básica
 UPD 4 -> + dropout
+UPD 1 -> + dropout y mas capas de convolucion
 UPD 5 -> + Attention
+
 UPD 6 -> + dropout
 UPD 7 -> + dropout en todas las capas
-UPD 8 -> 
+UPD 8 -> + dropout en todas las capas + Attention
+
+
+
+
+UPD 9 -> TRANSFORMER
+UPD 10 -> TRANSFORMER 2.0
+UPD 2 -> + cross validation (unused for now)
