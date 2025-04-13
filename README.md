@@ -49,8 +49,3 @@ El proyecto implementa y evalúa diferentes modelos de machine learning para la 
 3. Descarga los datasets de entrenamiento preprocesados y los espectros de prueba:\
    - [/data](https://unioviedo-my.sharepoint.com/:f:/g/personal/uo284776_uniovi_es/EiifkyAiWZ9HqcUwLZppl-4BypXdYoWkSBb3XhzWpCAhqw?e=Zl62pY)
    - [/spectrums](https://unioviedo-my.sharepoint.com/:f:/g/personal/uo284776_uniovi_es/EhBzxXiQb2pOuGz-wNQrxUwBxq-gw6r4Nu20r6s61r3LSg?e=C3JDgY)
-   
-4. El archivo más visual e interesante es en el que realiza la comparativa:
-   ```
-   pearson.ipynb
-   ```
