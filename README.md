@@ -11,11 +11,11 @@ El proyecto implementa y evalúa diferentes modelos de machine learning para la 
 
 ## Estructura del Proyecto
 
-- **[/SciServer](SciServer):** Carpeta con todos los archivos necesarios para que funcionen los comandos del módulo SciServer, para evitar instalaciones del mismo.
 - **/data:** Carpeta con los datasets utilizados durante el entrenamiento de los modelos.
+- **[/extra](extra):** Carpeta auxiliar usada para la obtención y procesamiento de los datos y para la construcción de los datasets de entrenamiento.
+- **[/SciServer](SciServer):** Carpeta con todos los archivos necesarios para que funcionen los comandos del módulo SciServer, para evitar instalaciones del mismo.
 - **/spectrums:** Carpeta con varios espectros descargados con [Fits Retriever](<Fits Retriever.ipynb>) que pueden usarse para probar los modelos (última línea del notebook de cualquier modelo).
 - **[/storage](storage):** Carpeta destinada a almacenar los modelos entrenados.
-- **[/extra](extra):** Carpeta auxiliar usada para la obtención y procesamiento de los datos y para la construcción de los datasets de entrenamiento.
 - **[Fits Retriever](<Fits Retriever.ipynb>):** Extrae todos los archivos .fits de la base de datos de la SDSS y los descarga.
 - **[Fits Selector](<Fits Selector.ipynb>):** Programa clave para la obtención del dataset principal de entrenamiento, creado para seleccionar de manera un poco más uniforme los .fits sobre todo para que se aprovechen mucho más los datos con Z ≥ 4.
 - **[Dataset Builder](<Dataset Builder.ipynb>):** Toma todos los .fits de una carpeta y construye el dataset de entrenamiento, que consta únicamente de los datos de fluxes/wavelenghts y de Z, y los guarda en la carpeta /data de [Onedrive](https://unioviedo-my.sharepoint.com/:f:/g/personal/uo284776_uniovi_es/EiifkyAiWZ9HqcUwLZppl-4BypXdYoWkSBb3XhzWpCAhqw?e=Zl62pY). Es el archivo estándar que marca como se deben procesar los archivos antes de pasarselos a los modelos, ya que el input debe ser obligatoriamente de 5000 fluxes + 5000 wavelenghts.
