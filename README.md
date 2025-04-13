@@ -12,6 +12,8 @@ El proyecto implementa y evalúa diferentes modelos de machine learning para la 
 ## Estructura del Proyecto
 
 - **[/SciServer](SciServer):** Carpeta con todos los archivos necesarios para que funcionen los comandos del módulo SciServer, para evitar instalaciones del mismo.
+- **[/spectrums](spectrums):** Carpeta con varios espectros descargados con [Fits Retriever](<Fits Retriever.ipynb>) que pueden usarse para probar los modelos (última línea del notebook de cualquier modelo).
+- **[/spectrums](spectrums):** Carpeta con varios espectros descargados con [Fits Retriever](<Fits Retriever.ipynb>) que pueden usarse para probar los modelos (última línea del notebook de cualquier modelo).
 - **[/storage](storage):** Carpeta destinada a almacenar los modelos entrenados.
 - **[/extra](extra):** Carpeta auxiliar usada para la obtención y procesamiento de los datos y para la construcción de los datasets de entrenamiento.
 - **[Fits Retriever](<Fits Retriever.ipynb>):** Extrae todos los archivos .fits de la base de datos de la SDSS y los descarga.
