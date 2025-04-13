@@ -42,12 +42,13 @@ El proyecto implementa y evalúa diferentes modelos de machine learning para la 
    ```
    git clone https://github.com/albertnica/TFGF-albertnica
    ```
-2. Instala todas las dependencias menos SciServer, para el cual hay que seguir [este tutorial](https://github.com/sciserver/SciScript-Python) (Python 3.13.2):
+2. Instala todas las dependencias menos SciServer, la cual debería funcionar abriendo el repositorio clonado en tu IDE (Python 3.13.2):
    ```
    pip install -r requirements.txt
    ```
-3. Descarga los datasets de entrenamiento preprocesados:\
-   [Onedrive](https://unioviedo-my.sharepoint.com/:f:/g/personal/uo284776_uniovi_es/EiifkyAiWZ9HqcUwLZppl-4BypXdYoWkSBb3XhzWpCAhqw?e=Zl62pY)
+3. Descarga los datasets de entrenamiento preprocesados y los espectros de prueba:\
+   - [/data](https://unioviedo-my.sharepoint.com/:f:/g/personal/uo284776_uniovi_es/EiifkyAiWZ9HqcUwLZppl-4BypXdYoWkSBb3XhzWpCAhqw?e=Zl62pY)
+   - [/spectrums](https://unioviedo-my.sharepoint.com/:f:/g/personal/uo284776_uniovi_es/EhBzxXiQb2pOuGz-wNQrxUwBxq-gw6r4Nu20r6s61r3LSg?e=C3JDgY)
    
 4. El archivo más visual e interesante es en el que realiza la comparativa:
    ```
