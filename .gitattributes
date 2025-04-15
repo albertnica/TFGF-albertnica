@@ -1,4 +1,0 @@
-storage/modelCNN_600k_3.pth filter=lfs diff=lfs merge=lfs -text
-storage/modelCNN_1M_3.pth filter=lfs diff=lfs merge=lfs -text
-storage/modelMLP_600k_1.pth filter=lfs diff=lfs merge=lfs -text
-storage/modelMLP_1M_1.pth filter=lfs diff=lfs merge=lfs -text
