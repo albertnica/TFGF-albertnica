@@ -36,6 +36,10 @@ El proyecto implementa y evalúa diferentes modelos de machine learning para la 
 
 - **[Spectra TRA 600k 1](<Spectra TRA 600k 1.ipynb>), [Spectra TRA 1M 1](<Spectra TRA 1M 1.ipynb>):** Modelo basado en Transformers.
 
+<br />
+
+- **[Spectra Diffusion](<Spectra Diffusion.ipynb>):** Modelo que es capaz de generar espectros de manera eficiente y coherente gracias a los datasets inicialmente presentados y al modelo basado en Transformers.
+
 ## Uso
 
 1. Clona el repositorio:
