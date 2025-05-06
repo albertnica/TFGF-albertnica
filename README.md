@@ -34,7 +34,7 @@ El proyecto implementa y evalúa diferentes modelos de machine learning para la 
 
 <br />
 
-- **[4.3 Model TRA 600k](<4.2 Model TRA 600k.ipynb>), [4.3 Model TRA 1M](<4.2 Model TRA 1M.ipynb>):** Modelo basado en Transformers.
+- **[4.3 Model TRA 600k](<4.3 Model TRA 600k.ipynb>), [4.3 Model TRA 1M](<4.3 Model TRA 1M.ipynb>):** Modelo basado en Transformers.
 
 <br />
 
