@@ -22,7 +22,7 @@ El proyecto implementa y evalúa diferentes modelos de machine learning para la 
 
 <br />
 
-- **[4.1 Model MLP 600k 1](<4.1 Model MLP 600k 1.ipynb>), [4.1 Model MLP 1M 1](<4.1 Model MLP 1M 1.ipynb>):** Modelo basado en Perceptrones Multicapa.
+- **[4.1 Model MLP 600k](<4.1 Model MLP 600k.ipynb>), [4.1 Model MLP 1M](<4.1 Model MLP 1M.ipynb>):** Modelo basado en Perceptrones Multicapa.
 
 <br />
 
@@ -34,11 +34,11 @@ El proyecto implementa y evalúa diferentes modelos de machine learning para la 
 
 <br />
 
-- **[4.3 Model TRA 600k 1](<4.2 Model TRA 600k 1.ipynb>), [4.3 Model TRA 1M 1](<4.2 Model TRA 1M 1.ipynb>):** Modelo basado en Transformers.
+- **[4.3 Model TRA 600k](<4.2 Model TRA 600k.ipynb>), [4.3 Model TRA 1M](<4.2 Model TRA 1M.ipynb>):** Modelo basado en Transformers.
 
 <br />
 
-- **[5 Others Evaluations and Errors](<5 Others Evaluations and Errors.ipynb>):** Modelo que es capaz de generar espectros de manera eficiente y coherente gracias a los datasets inicialmente presentados y al modelo basado en Transformers.
+- **[5 Others Evaluations and Errors](<5 Others Evaluations and Errors.ipynb>):** Programa de apoyo para testear los modelos en otros datasets y calcular los errores a partir de evaluaciones pasadas.
 
 ## Uso
 
