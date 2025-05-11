@@ -42,7 +42,7 @@ El proyecto implementa y evalúa diferentes modelos de machine learning para la 
 
 ## Uso
 
-1. Clona el repositorio:
+1. Clona el repositorio (instalar [chocolatey](https://chocolatey.org/install) y luego [git](https://community.chocolatey.org/packages/Git) de no tenerlo):
    ```
    git clone https://github.com/albertnica/TFGF-albertnica
    ```
