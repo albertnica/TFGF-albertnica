@@ -50,7 +50,11 @@ El proyecto implementa y evalúa diferentes modelos de machine learning para la 
    ```
    pip install -r requirements.txt
    ```
-3. Descarga los datasets de entrenamiento preprocesados y los espectros de prueba:\
+3. Si se dispone de una gráfica con [soporte CUDA](https://developer.nvidia.com/cuda-gpus) se puede habilitar con:
+   ```
+pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu128
+   ```
+3. Descarga los datasets de entrenamiento preprocesados y los espectros de prueba:
    - [/data](https://unioviedo-my.sharepoint.com/:f:/g/personal/uo284776_uniovi_es/EiifkyAiWZ9HqcUwLZppl-4BypXdYoWkSBb3XhzWpCAhqw?e=Zl62pY)
    - [/spectrums](https://unioviedo-my.sharepoint.com/:f:/g/personal/uo284776_uniovi_es/EhBzxXiQb2pOuGz-wNQrxUwBxq-gw6r4Nu20r6s61r3LSg?e=C3JDgY)
    - [/storage](https://unioviedo-my.sharepoint.com/:f:/g/personal/uo284776_uniovi_es/EsZm738_E2FKoC7dOV0W8hIB3JHfctzO4ZNtGTlCgmFDTg?e=Sc1KSx)
