@@ -45,7 +45,7 @@ El proyecto implementa y evalúa diferentes modelos de machine learning para la 
 
 1. Clona el repositorio (instalar [chocolatey](https://chocolatey.org/install) y luego [git](https://community.chocolatey.org/packages/Git) de no tenerlo):
    ```
-   git clone https://github.com/albertnica/TFGF-albertnica
+   git clone https://github.com/albertotfgf/Alberto-Nieto-Cardoso-TFGF
    ```
 2. Instala todas las dependencias menos SciServer, la cual debería funcionar abriendo el repositorio clonado en tu IDE (Python 3.13.2):
    ```
