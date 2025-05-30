@@ -8,6 +8,7 @@ El proyecto implementa y evalúa diferentes modelos de machine learning para la 
 
 - **MLP (Multi-Layer Perceptron):** Redes neuronales tradicionales que ayudan a modelar relaciones complejas en los datos.
 - **CNN (Convolutional Neural Network):** Redes neuronales convolucionales, que se utilizan para extraer características relevantes de los espectros.
+- **TRA (Transformer):** Arquitectura basada en "Attention Is All You Need".
 
 ## Estructura del Proyecto
 
@@ -18,7 +19,7 @@ El proyecto implementa y evalúa diferentes modelos de machine learning para la 
 - **/storage:** Carpeta destinada a almacenar los modelos entrenados y datos de evaluaciones.
 - **[1 Fits Retriever](<1 Fits Retriever.ipynb>):** Extrae todos los archivos .fits de la base de datos de la SDSS y los descarga.
 - **[2 Spaectra Processor](<2 Spectra Processor.ipynb>):** Programa clave para la obtención del dataset principal de entrenamiento, creado para seleccionar de manera un poco más uniforme los .fits sobre todo para que se aprovechen mucho más los datos con Z ≥ 4.
-- **[3 Dataset Builder](<3 Dataset Builder.ipynb>):** Toma todos los .fits de una carpeta y construye el dataset de entrenamiento, que consta únicamente de los datos de fluxes/wavelenghts y de Z, y los guarda en la carpeta /data de [Onedrive](https://unioviedo-my.sharepoint.com/:f:/g/personal/uo284776_uniovi_es/EiifkyAiWZ9HqcUwLZppl-4BypXdYoWkSBb3XhzWpCAhqw?e=Zl62pY). Es el archivo estándar que marca como se deben procesar los archivos antes de pasarselos a los modelos, ya que el input debe ser obligatoriamente de 5000 fluxes + 5000 wavelenghts.
+- **[3 Dataset Builder](<3 Dataset Builder.ipynb>):** Es el archivo estándar que marca como se deben procesar los archivos antes de pasarselos a los modelos, ya que el input debe ser obligatoriamente de 5000 fluxes + 5000 wavelenghts.
 
 <br />
 
