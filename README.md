@@ -56,6 +56,6 @@ El proyecto implementa y evalúa diferentes modelos de machine learning para la 
    pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu128
    ```
 4. Descarga los datasets de entrenamiento preprocesados y los espectros de prueba:
-   - [/data](https://unioviedo-my.sharepoint.com/:f:/g/personal/uo284776_uniovi_es/EiifkyAiWZ9HqcUwLZppl-4BypXdYoWkSBb3XhzWpCAhqw?e=Zl62pY)
+   - [/data](https://unioviedo-my.sharepoint.com/:f:/g/personal/uo284776_uniovi_es/EiifkyAiWZ9HqcUwLZppl-4BypXdYoWkSBb3XhzWpCAhqw?e=ihWSAh)
    - [/spectrums](https://unioviedo-my.sharepoint.com/:f:/g/personal/uo284776_uniovi_es/EhBzxXiQb2pOuGz-wNQrxUwBxq-gw6r4Nu20r6s61r3LSg?e=C3JDgY)
    - [/storage](https://unioviedo-my.sharepoint.com/:f:/g/personal/uo284776_uniovi_es/EsZm738_E2FKoC7dOV0W8hIB3JHfctzO4ZNtGTlCgmFDTg?e=Sc1KSx)
