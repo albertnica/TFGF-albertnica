@@ -1,6 +1,6 @@
 # Predicción del Redshift mediante Modelos de Machine Learning
 
-Este repositorio contiene varios modelos de machine learning que se comparan entre sí con el objetivo de predecir el redshift a partir de espectros astronómicos obtenidos del Sloan Digital Sky Survey (SDSS).
+Este repositorio contiene varios modelos de machine learning que se comparan entre sí con el objetivo de predecir el redshift a partir de espectros astronómicos obtenidos del Sloan Digital Sky Survey (SDSS). Un análisis detallado se presenta en la [memoria](<TFG_Fisica_Alberto_Nieto_Cardoso.pdf>) correspondiente.
 
 ## Descripción
 
