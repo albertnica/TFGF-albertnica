@@ -45,7 +45,7 @@ The project implements and evaluates various machine learning architectures for 
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/albertnica/Alberto-Nieto-Cardoso-TFGF
+   git clone https://github.com/albertnica/TFGF-albertnica
    ```
 2. Install dependencies (Python 3.13):
    ```bash
