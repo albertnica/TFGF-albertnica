@@ -85,8 +85,8 @@ A comprehensive evaluation was performed on the full SDSS dataset comprising **3
 Scaling the training dataset from 600,000 to 1,000,000 spectra directly improved performance in the sparse, high-redshift regime ($z_{\text{spec}} > 5$) without causing overfitting across mid-redshift intervals. High-$z$ MAE decreased from **3.7** down to **1.8**.
 
 <p align="center">
-  <img src="Overleaf/images/79.png" width="48%" alt="TRA 600k High Redshift" />
-  <img src="Overleaf/images/80.png" width="48%" alt="TRA 1M High Redshift" />
+  <img src="images/79.png" width="48%" alt="TRA 600k High Redshift" />
+  <img src="images/80.png" width="48%" alt="TRA 1M High Redshift" />
   <br />
   <em>Figure: Logarithmic density heatmaps for high redshifts: TRA 600k (left) vs. TRA 1M (right). Predictions consolidate along the identity diagonal.</em>
 </p>
@@ -98,8 +98,8 @@ Scaling the training dataset from 600,000 to 1,000,000 spectra directly improved
 - **Transformer (TRA)**: Achieved the highest fidelity across the full spectral range by directly modeling interactions between distant emission lines (e.g., [O III], H$\beta$, and Lyman-$\alpha$).
 
 <p align="center">
-  <img src="Overleaf/images/118.png" width="48%" alt="CNN Variant 3 Evaluation" />
-  <img src="Overleaf/images/128.png" width="48%" alt="Transformer TRA Evaluation" />
+  <img src="images/118.png" width="48%" alt="CNN Variant 3 Evaluation" />
+  <img src="images/128.png" width="48%" alt="Transformer TRA Evaluation" />
   <br />
   <em>Figure: Full-range evaluation heatmaps for CNN Variant 3 with Attention (left) vs. pure Transformer TRA (right).</em>
 </p>
@@ -108,8 +108,8 @@ Scaling the training dataset from 600,000 to 1,000,000 spectra directly improved
 Replacing scikit-learn's standard z-score normalization (`StandardScaler`) with a **shape-preserving normalization** (zero-centering wavelength, scaling wavelength to $[-1, 1]$, and normalizing flux to unit peak amplitude) reduced MAE from **0.039** to **0.030**, cut negative predictions by over 57%, and improved resilience to instrument domain shifts.
 
 <p align="center">
-  <img src="Overleaf/images/135.png" width="48%" alt="TRA StandardScaler" />
-  <img src="Overleaf/images/145.png" width="48%" alt="TRA Shape-Preserving Normalization" />
+  <img src="images/135.png" width="48%" alt="TRA StandardScaler" />
+  <img src="images/145.png" width="48%" alt="TRA Shape-Preserving Normalization" />
   <br />
   <em>Figure: Prediction heatmaps using StandardScaler (left) vs. Shape-Preserving Normalization (right).</em>
 </p>
@@ -119,8 +119,8 @@ Replacing scikit-learn's standard z-score normalization (`StandardScaler`) with 
 - **Instrument Transfer (Data Drift)**: Evaluating SDSS-trained models on out-of-distribution NASA/NED spectra exposed domain shift sensitivities stemming from different native spectrograph resolutions and line profile samplings:
 
 <p align="center">
-  <img src="Overleaf/images/155.png" width="48%" alt="Data Drift Unrenormalized" />
-  <img src="Overleaf/images/156.png" width="48%" alt="Data Drift Renormalized" />
+  <img src="images/155.png" width="48%" alt="Data Drift Unrenormalized" />
+  <img src="images/156.png" width="48%" alt="Data Drift Renormalized" />
   <br />
   <em>Figure: Out-of-distribution evaluation on NASA/NED spectra: Unrenormalized (left, r=0.812, MAE=0.335) vs. Renormalized (right, r=0.720, MAE=0.483).</em>
 </p>
